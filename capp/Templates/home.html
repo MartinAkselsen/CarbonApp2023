@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<!-- Header -->
+<section class="section_header_home">
+    <div class="container">
+  
+      <div class="header_home">
+        <div class="box"> 
+          <h1 style="font-size:55px;"><span class="text-logo">Home</span></h1>
+          <p style="text-align:left;">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat dolores quos asperiores repellendus facilis cum illo aperiam odit doloremque nostrum. Totam excepturi labore voluptatibus iusto sapiente quisquam consectetur optio magnam voluptates omnis vel officia alias distinctio quas laborum reiciendis ratione inventore veniam, cupiditate doloribus dolore, eius natus a. Magni inventore consequuntur voluptas reprehenderit perferendis! Molestias aspernatur rem autem aut temporibus.
+          </p>
+          <div class="container_buttons_header_home">
+            <div class="btn">
+                <a href="{{url_for('users.register')}}" class="btn btn-primary btn-lg mr-2", style="background-color:rgb(68, 123, 86);">Register</a>
+            </div>
+            <div class="btn">
+                <a href="{{url_for('users.login')}}" class="btn btn-primary btn-lg mr-2", style="background-color:rgb(68, 123, 86);">Login</a>
+            </div>
+          </div>  
+        </div>
+        <div class="box">
+          <img 
+            src="{{url_for('static', filename='icons/calculator.svg')}}"
+            width="325" 
+            height="325"
+            alt=""/>
+        </div>
+      </div>
+  
+    </div>
+  
+
+    <!DOCTYPE html>
+
+</head>
+<body>
+
+  <!-- Developers-->
+ <section class="section_developers">
+    <div class="container">
+      <div class="developers" style="display:block;">
+        <h1 style="text-align:center">Our Team</h1>
+        <p>
+          Our team of economists and developers ... Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id similique cum sit temporibus officia voluptate optio sapiente modi deleniti fugit? Necessitatibus velit magnam ducimus tempore!
+        </p>
+      </div>
+      <div class="developers">
+        <div class="box">
+          <img src="{{url_for('static', filename='profilbilde.jpeg')}}" alt="" style="border-radius: 50%; width:200px;">
+          <h3>Martin Akselsen</h3>
+          <p>
+            Martin is a student at NHH... Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio natus nesciunt similique illo in quod dolorem, tempore quia earum. Enim corporis cupiditate necessitatibus sequi?
+          </p>
+          <div class="container_buttons_developers">
+            <a class="btn_developers" href="#"  target="_blank">Curriculum</a>
+          </div> 
+        </div>
+        <div class="box">
+          <img src="https://compote.slate.com/images/01a4c27f-044a-489e-a891-69480c85f4db.jpeg?crop=3000%2C2000%2Cx0%2Cy57" alt="" style="border-radius: 50%; width:200px;">
+          <h3>Messi</h3>
+          <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia repellat omnis? Odit enim hic atque dolorem iste natus inventore perspiciatis vitae dolore animi veritatis aut nemo unde similique, officia reiciendis ex architecto voluptates soluta ab tempore facilis quisquam cum.
+          </p>
+          <div class="container_buttons_developers">
+            <a class="btn_developers" href="https://no.wikipedia.org/wiki/Lionel_Messi"  target="_blank">Wikipedia page</a>
+          </div> 
+        </div>           
+        <div class="box">
+          <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="" style="border-radius: 50%; width:200px;">
+          <h3>Developer 3</h3>
+          <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia repellat omnis? Odit enim hic atque dolorem iste natus inventore perspiciatis vitae dolore animi veritatis aut nemo unde similique, officia reiciendis ex architecto voluptates soluta ab tempore facilis quisquam cum.
+          </p>
+          <div class="container_buttons_developers">
+            <a class="btn_developers" href="#"  target="_blank">Curriculum</a>
+          </div> 
+        </div>     
+    </div>
+      </div>
+    </div>
+   </section>
+    
+
+</body>
+</html>
+{% endblock content %}
+

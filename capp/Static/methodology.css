@@ -1,0 +1,49 @@
+/* Section header */
+.section_header_methodology {
+    background-color: #9fa7bf;
+}
+ 
+.header_methodology {
+    display: flex;
+    align-items: start;
+    background-color: #9fa7bf;
+}
+
+.header_hmethodology .box {
+    flex: 1;
+    background: #9fa7bf;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 15px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_methodology .box:nth-of-type(1) {
+    flex-grow: 2;
+}
+.header_methodology .box:nth-of-type(2) {
+flex-grow: 1;
+} 
+
+.container_buttons_header_methodology {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container_buttons_header_methodology a:hover {
+    color: #9fa7bf;
+}
+.container_buttons_header_methodology btn {
+    width: 100px;
+    height: 100px;
+    background: #9fa7bf;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
